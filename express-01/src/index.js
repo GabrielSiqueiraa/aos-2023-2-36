@@ -7,7 +7,7 @@ import models, { sequelize } from "./models";
 import routes from "./routes";
 
 console.log("Projeto Node + Express - 2023.2");
-console.log("MY_SECRET", process.env.MY_SECRET);
+console.log("MY_SECRET", process.env.DATABASE_URL);
 
 const app = express();
 
